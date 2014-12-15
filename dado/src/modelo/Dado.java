@@ -21,7 +21,7 @@ public class Dado {
 
 	public int lanzarDado() {
 		Random random = new Random();
-		cara = random.nextInt(6) + 2;
+		cara = random.nextInt(6) + 1;
 		return cara;
 	}
 	 public void realizarTest(int numerotiradas){
